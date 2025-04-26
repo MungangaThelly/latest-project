@@ -35,7 +35,6 @@ const Login = () => {
                     placeholder="Password" 
                     autoComplete="current-password" 
                 />
-                <button type="submit">Login</button>
             </form>
         </div>
     );

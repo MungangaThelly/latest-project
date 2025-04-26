@@ -53,7 +53,7 @@ export default function MovieComponent() {
       
       <ul>
         {movies.map((movie) => (
-          <li key={movie.id}>{movie.title}</li> 
+        <li key={movie.id}>{movie.title}, {movie.description}, {movie.year}</li> 
         ))}
       </ul>
     </div>

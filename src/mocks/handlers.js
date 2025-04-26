@@ -1,7 +1,7 @@
 import { http, HttpResponse } from 'msw';
 
 let movies = [
-  { id: 1, title: 'Inception', description: 'A mind-bending heist movie', year: 2010 }
+  { id: 1, title: 'The Matrix', description: 'A mind-bending heist movie', year: 2010 }
 ];
 let nextId = 2;
 
@@ -152,7 +152,7 @@ export const handlers = [
 
 export function resetMovieData() {
   movies = [
-    { id: 1, title: 'Inception', description: 'A mind-bending heist movie', year: 2010 }
+    { id: 1, title: 'The Matrix', description: 'A mind-bending heist movie', year: 2010 }
   ];
   nextId = 2;
 }
