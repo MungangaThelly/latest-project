@@ -1,0 +1,22 @@
+.login-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.login-form form input {
+    padding: 10px;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+
+.login-form form button[type="submit"] {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    font-weight: bold;
+    cursor: pointer;
+}
