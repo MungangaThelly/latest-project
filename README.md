@@ -116,7 +116,7 @@ Appen körs på http://localhost:5173
 🧪 Testa projektet
 1. Kör alla tester
 bash
-npm run test
+npm test -- --reporter=verbose
 2. Testtäckning (om aktiverat)
 bash
 npm run coverage
